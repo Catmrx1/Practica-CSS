@@ -1,0 +1,119 @@
+@media screen and (max-width: 1510px) {
+    div.img{
+        height: 1020px;
+        width: 604px;
+    }
+    h1.container2 {
+        font-size: 30pt !important;
+    }
+    div.inf {
+        margin-left: 52% !important;
+    }
+    div.alcoholic{
+        height: 50px !important;
+    }
+    div.stress{
+        height: 190px;
+    }
+    div.healthy{
+        height: 50px;
+    }
+    div.enough{
+        height: 50px;
+    }
+    div.exercise{
+        height: 50px;
+    }
+    h1.container3{
+        font-size: 30pt !important;
+    }
+    span.casc{
+        padding-top: 2% !important;
+    }
+    span.cascg{
+        padding-top: 2% !important
+    }
+    img.icons{
+        margin-top: 1% !important;
+    }
+    img.press1{
+        margin-top: 2% !important;
+    }
+    img.press2{
+        margin-top: 2%  !important;
+    }
+    img.press3{
+        margin-top: 2% !important;
+    }
+    img.press4{
+        margin-top: 2% !important;
+    }
+    img.press5{
+        margin-top: 2% !important;
+    }
+    div.call{
+        width: 280px !important;
+        height: 250px !important;
+    }
+
+    div.chat{
+        width: 280px !important;
+        height: 250px !important;
+    }
+    button.a-call{
+        height: 75px !important;
+        width: 220px !important;
+    }
+    button.b-call{
+        height: 75px !important;
+        width: 220px !important;
+    }
+    div.video{
+        width: 280px !important;
+        height: 250px !important;
+    }
+    div.message{
+        width: 280px !important;
+        height: 250px !important;
+    }
+    .nurse2 {
+        display: flex;
+        position: absolute;
+        right: 0;
+        width: 600px !important;
+        height: 750px !important;
+    }
+    span.info3 {
+        font-size: 16.5pt;
+        display: block;
+        text-align: left;
+        display: block;
+        margin-left: 6%;
+        margin-right: 51.5% !important;
+    }
+    div.end2{
+        margin-left: 17% !important;
+
+    }
+    div.support{
+        width: 200px;
+    }
+    div.company{
+        width: 200px;
+    }
+    div.about{
+        width: 200px;
+    }
+    h2.blue{
+        width: 200px !important;
+    }
+    div.term{
+        margin: 14% 0% 12% 19% !important;
+    }
+    span.term2{
+        margin: 52% 0% 0% 0% !important;
+    }
+    span.term3{
+        margin: 52% 0% 12% 19% !important;
+    }
+}
