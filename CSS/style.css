@@ -3,29 +3,28 @@
 @import url("media.css") all;
 * {
     font-family: 'Mukta', sans-serif;
+    
 }
 
 body {
     margin: 0px;
 }
 
+#menu-check, #menu{
+    display: none;
+}
+
 .bar {
-    position: relative;
+    position: sticky;
     display: flex;
     background-color: rgba(255, 255, 255, 255);
     color: #7f8ba0;
-    margin: 0 0 0% 3%;
+    /* margin: 0 0 0 0; */
     padding: 1% 5%;
     text-decoration: none;
     justify-content: space-between;
     z-index: 3;
     opacity: 0.90;
-
-}
-
-ul {
-    margin: auto 0;
-
 }
 
 .bar ul li {
@@ -33,7 +32,7 @@ ul {
     list-style: none;
     display: inline-block;
     padding: 0 35px 12px 22px;
-    font-weight: 500;
+    font-weight: bold;
 
 }
 
@@ -41,6 +40,7 @@ h1 {
     color: rgb(50, 82, 206);
     font-size: 22pt;
     padding: 0.5% 3%;
+    font-weight: bold;
     /* margin: 1pt 1%; */
 }
 
@@ -48,59 +48,79 @@ h1 {
     background-color: rgb(50, 82, 206);
     color: #fff;
     font-size: 15pt;
-    width: 160px;
-    padding: 10%;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    width: 180px;
     border: 0;
     border-radius: 4%;
+}
+section.home{
+    display: inline-flex;
+    width: 100%;
 }
 
 h3.first {
     color: #1f3e72;
-    font-size: 35pt;
-    margin: 8% 15% 0%;
-    width: 280px;
+    font-size: 37pt;
+    font-weight: bold;
+
+    margin: 6% 0% 0% 8%;
+    max-width: 290px;
 }
 
 .img {
     background-image: linear-gradient(to right bottom, #118ee3, #0386e3, #047fe2, #1277e0, #216ede, #286add, #2e66dc, #3462da, #3462da, #3561da, #3561da, #3660da);
-    display: flex;
-    height: 1100px;
-    width: 748px;
+    max-height: 310em;
+    max-width: 46em;
     position: absolute;
-    left: 55%;
+    display: flex;
     top: 0;
+    right: 0;
 }
 
 img.nurse {
-    /* 85 en la otra */
     width: 75%;
-    margin: 14% 0 0 14%;
+    margin: 10% 0 0 14%;
 }
 
-div.text {
-    width: 80%;
-    right: 80%;
-    bottom: 80%;
+
+div.text{
+    width: 100%;
 }
 
 span.first {
     color: #7f8ba0;
     font-size: 15pt;
     display: block;
-    margin: 2% 0 0 15%;
+    margin: 2% 0 0 8%;
     max-width: 375px;
     font-weight: 500;
 }
-
-img.icon {
+div.points{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+span.second{
+    margin-left: 3%;
+    margin-right: 5%;
+    
+}
+img.icon{
     width: 35px;
     height: 35px;
     border-radius: 15%;
-    margin: 13% 1% 0 2%;
+
 }
 
+img#shield.icon{
+    margin-left: 0;
+}
 img#star.icon {
-    margin-left: 6%;
+    margin-left: 1%;
 }
 
 #color {
@@ -109,10 +129,11 @@ img#star.icon {
 }
 
 div.dates {
-    margin: 5% 15% 0 15%;
+    margin: 0% 15% 0 8%;
 }
 
 span#color.dates {
+    /* margin-left: 2%; */
     font-size: 25pt;
     font-weight: 500;
 }
@@ -133,43 +154,39 @@ span#lock.edit {
     width: 180px;
 }
 
-span#lock.date img.icon {
-    margin-top: 20%;
-}
-
-span#lock.location img.icon {
-    margin-top: 18%;
-}
-
 span#lock {
-    padding: 1% 8% 1% 2%;
+    padding: 3% 8% 2% 2%;
     color: #7f8ba0;
+    font-weight: bold;
     font-size: 16pt;
 }
 
-/* span.edit p.sublocation {
-    margin-top: 10%;
-} */
 
 p.sublocation {
     color: #1f3e72;
-    font-weight: 500;
+    font-weight: bold;
     margin: 0 25%;
     width: 150px;
 }
 
 .button {
     background-color: #3252ce;
-    margin: 3.5% 0 0 0;
+    margin: 4% 0 0 0;
     color: #fff;
     font-size: 15pt;
     border: 0;
     border-radius: 5%;
     height: 50px;
     width: 125px;
-    font-weight: 500;
+    font-weight: bold;
     cursor: pointer;
 
+}
+
+section.home2{
+    max-width: 100%;
+    display: block;
+    position: relative;
 }
 
 div.images {
@@ -179,12 +196,12 @@ div.images {
 
 }
 
-/*
-img.tem{
-    width: 12em;
-    margin: 0 0 0 0 ;
-    padding: 2em 1em 2em 2em;
-} */
+div.cierre {
+    color: #7f8ba0;
+    max-width: 500px;
+    margin: 1% 40% 1% 12%;
+    font-size: 15pt;
+}
 .astra {
     width: 16em;
     padding: 5% 3% 5% 0;
@@ -214,26 +231,25 @@ img.tem{
 
 h1.container {
     color: #1f3e72;
+    font-size: 40pt;
     margin: 5% 25% 1% 9%;
 }
-
-div.cierre {
-    color: #7f8ba0;
-    max-width: 500px;
-    margin: 1% 40% 1% 12%;
-    font-size: 15pt;
-}
-
-span.info {
-    width: 12%;
-    height: 12%;
-}
-
 h2.top {
     color: #1f3e72;
     font-weight: 500;
     margin-right: 25%;
     padding-left: 11%;
+}
+section.home3{
+    max-width: 100%;
+    display: block;
+    position: relative;
+}
+
+
+span.info {
+    width: 12%;
+    height: 12%;
 }
 
 #border {
@@ -279,9 +295,6 @@ img.bigicon {
 
 }
 
-div.preparations {
-    text-align: right;
-}
 
 h1.container2 {
     color: #1f3e72;
@@ -293,6 +306,7 @@ h1.container2 {
     display: flex;
     text-align: left;
     margin-left: 50.5%;
+
 }
 
 span.info2 {
@@ -313,26 +327,29 @@ div.inf{
     margin-right: 22%;
 }
 
-img.people {
+
+.people {
     display: flex;
+    position: relative;
     margin-top: 3%;
-    width: 47%;
+    width: 100%;
+    height: 780px;
+    top: 0em;
+    left: 0em;
+
 }
 
 div.people {
     display: flex;
     position: relative;
-
+    max-width: 750px;
 }
 
 div.cascade {
-    /* z-index: 10;
-    position: relative; */
     position: absolute;
     display: flex;
-    justify-content: space-between;
+    max-width: 558px;
     flex-direction: column;
-    flex-wrap: wrap;
     margin: 15% 0 0 52%;
 }
 
@@ -379,7 +396,6 @@ img.icons {
 }
 
 div.alcoholic {
-    z-index: 1;
     color: #1f3e72;
     font-weight: 500;
     font-size: 15pt;
@@ -389,7 +405,6 @@ div.alcoholic {
 }
 
 div.stress {
-    z-index: 1;
     color: #1f3e72;
     font-weight: 500;
     font-size: 15pt;
@@ -400,7 +415,6 @@ div.stress {
 }
 
 div.healthy {
-    z-index: 1;
     color: #1f3e72;
     font-weight: 500;
     font-size: 15pt;
@@ -410,7 +424,6 @@ div.healthy {
 }
 
 div.enough {
-    z-index: 1;
     color: #1f3e72;
     font-weight: 500;
     font-size: 15pt;
@@ -420,7 +433,6 @@ div.enough {
 }
 
 div.exercise {
-    z-index: 1;
     color: #1f3e72;
     font-weight: 500;
     font-size: 15pt;
@@ -447,7 +459,11 @@ p.cascg {
     margin-top: 1%;
     margin-bottom: 7%;
 }
-
+section.home4{
+    max-width: 100%;
+    display: block;
+    position: relative;
+}
 h1.container3 {
     color: #1f3e72;
     font-size: 40pt;
@@ -468,13 +484,20 @@ span.info3 {
     margin-right: 60%;
 }
 
+div.emergency{
+    position: relative;
+}
 
 .nurse2{
-    display: flex;
-    position: absolute;
+    display: block;
+    position: relative;
+    float: right;
+    top: 0em;
+    right: 0em;
     right: 0;
-    width: 750px;
-    height: 888px;
+    width: 65%;
+    height: 890px;
+    margin-bottom: 10%;
 }
 .controls{
     display: flex;
@@ -576,19 +599,18 @@ button.a-call{
     cursor: pointer;
     font-weight: 500;
 }
+
 div.finish{
     background-color: #eef3ff;
     display: flex;
-
+    width: 100%;
     position: relative;
-    margin-top: 65%;
     height: 450px;
 
 }
 div.end{
     display: flex;
     flex-direction: column;
-    width: 600px;
 }
 div.vaccination{
     display: flex;

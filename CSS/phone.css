@@ -1,5 +1,204 @@
-@media screen and (max-width: 767px) {
+@media (max-width: 1162px) {
     html {
-        background-color: blueviolet;
+        background-color: beige;
+    }
+    body #menu-check:not(:checked) ~ nav {
+        display: none;
+    }
+    body #menu-check:checked ~ nav{
+        display: block !important;
+    }
+    body #menu{
+        display: block !important;
+        color: rgb(50, 82, 206);
+        font-size: 2.5em;
+        font-weight: bold;
+        position: absolute;
+        right: .5em;
+        top: .6em;
+        z-index: 9999;
+    }
+    #menu-close{
+        display: none;
+    }
+    #menu-check:checked ~ label #menu-open{
+        display: none;
+    }
+    #menu-check:checked ~ label #menu-close{
+        display: block ;
+    }
+    div.points span.second{
+        margin-top: 3%;
+    }
+    div.bar nav{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 1000px;
+        width: 100%;
+        background-color: black;
+        opacity: .8;
+    }
+    div.text h3.first{
+        margin-left: 30%;
+
+    }
+    div.dates span#color.dates {
+        margin-right: 20%;
+    }
+    div.text span.first{
+        margin-left: 30%;
+        max-width: 300px;
+        text-align: left;
+    }
+    div.text div.points{
+        width: 500px;
+        margin: 5% 0% 0 18%;
+        flex-direction: column;
+        align-items: center;
+    }
+    div.text div.points img#star.icon{
+        margin: 0 0 0 0;
+    }
+    div.text{
+        text-align: center;
+        /* width: 100%;
+        height: 100%; */
+    }
+    div.text div.img{
+        position: static ;
+        margin-top: 12% ;
+        margin-left: 28% ;
+        margin-right: 18% ;
+        margin-bottom: 5%;
+        height: 500px ;
+        width: 350px ;
+
+    }
+    div.img img.nurse{
+        margin-top: 2% ;
+        width: 75%;
+    }
+    
+    span#color.first{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    div.text div.dates{
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    div.dates div.bar2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 23%;
+        position: static;
+        width: 300px;
+        height: 600px;
+    }
+    div.bar2 span#lock{
+        width: auto;
+        margin-top: 12%;
+    }
+
+    div.bar2 button.button{
+        margin: 20% 0 0 27%;
+    }
+    section.home2 div.images{
+        display: flex;
+        flex-direction: column;
+        margin-left: 35%;
+    }
+    div.benefits div.container{
+        align-items: center;
+        text-align: center;
+    }
+    div.benefits div.container h1.container{
+        font-size: 19pt;
+        width: 300px;
+        margin-left: 28%;
+    }
+    div.container div.cierre{
+        margin-left: 35%;
+        text-align: left;
+    }
+    div.benefits div.parallels{
+        flex-direction: column;
+        margin-left: 35%;
+    }
+    div.benefits div.parallels div#border.viruses, div#border.proven, div#border.protect, div#border.group{
+        margin-top: 5%;
+    }
+
+    div.preparations div.prep{
+        text-align: center;
+        margin-left: 12% ;
+    }
+    div.preparations div.prep h1.container2{
+        font-size: 19pt;
+        padding-left: 27%;
+    }
+    div.preparations div.inf {
+        position: sticky ;
+        width: 350px !important;
+        height: 158px !important;
+        margin: 0% 0% 0% 35% !important;
+
+    }
+    div.preparations div.inf span.info2 {
+        font-size: 15pt;
+    }
+    div.preparations div.cascade{
+        flex-direction: column;
+        position: static;
+        margin: 9% 0 0 35%;
+        width: 380px;
+    }
+    div.preparations div.cascade div#border.alcoholic, div#border.stress, div#border.healthy, div#border.enough, div#border.exercise{
+        width: 300px;
+    }
+    div.preparations div.people {
+        position: static;
+        width: 350px;
+        height: 350px;
+        margin-left: 32%;
+    }
+    div.preparations div.people img.people{
+        width: 100%;
+        height: 100%;
+        
+    }
+    section.home4 h1.container3{
+        text-align: center;
+        /* display: flex;
+        position: relative; */
+        font-size: 19pt;
+    }
+    div.context span.info3{
+        display: flex;
+        width: 300px;
+        position: static;
+        margin: 0 0 0 33%;
+    }
+    div.emergency div.ctrl div.general{
+        margin: 0 0 0 0;
+        position: static;
+        
+    }
+    div.emergency div.ctrl div.general div.controls{
+        flex-direction: column;
+        height: 550px;
+    }
+    div.emergency div.ctrl div.general div.controls2{
+        flex-direction: column;
+        height: 750px;
+    }
+    div.nurse2 img.nurse2{
+        display: flex;
+        position: relative;
+        float: none;
     }
 }

@@ -1,98 +1,44 @@
-@media screen and (max-width: 1510px) {
+@media  (max-width: 1510px) {
+
     div.img{
-        height: 1020px;
+        height: 990px;
         width: 604px;
     }
-    h1.container2 {
-        font-size: 30pt !important;
+    img.people{
+        width: 80%;
     }
-    div.inf {
-        margin-left: 52% !important;
-    }
-    div.alcoholic{
-        height: 50px !important;
-    }
-    div.stress{
-        height: 190px;
-    }
-    div.healthy{
-        height: 50px;
-    }
-    div.enough{
-        height: 50px;
-    }
-    div.exercise{
-        height: 50px;
-    }
-    h1.container3{
-        font-size: 30pt !important;
-    }
-    span.casc{
-        padding-top: 2% !important;
-    }
-    span.cascg{
-        padding-top: 2% !important
-    }
-    img.icons{
-        margin-top: 1% !important;
-    }
-    img.press1{
-        margin-top: 2% !important;
-    }
-    img.press2{
-        margin-top: 2%  !important;
-    }
-    img.press3{
-        margin-top: 2% !important;
-    }
-    img.press4{
-        margin-top: 2% !important;
-    }
-    img.press5{
-        margin-top: 2% !important;
-    }
-    div.call{
-        width: 280px !important;
-        height: 250px !important;
-    }
+    img.nurse2 {
 
-    div.chat{
-        width: 280px !important;
-        height: 250px !important;
+        height: 800px;
     }
-    button.a-call{
-        height: 75px !important;
-        width: 220px !important;
+    div#border.call{
+        width: 300px;
+        height: 280px;
     }
-    button.b-call{
-        height: 75px !important;
-        width: 220px !important;
+    div#border.chat{
+        width: 300px;
+
     }
-    div.video{
-        width: 280px !important;
-        height: 250px !important;
+    div#border.video{
+        width: 300px;
+        height: 280px;
     }
-    div.message{
-        width: 280px !important;
-        height: 250px !important;
+    div#border.message{
+        width: 300px;
     }
-    .nurse2 {
+    div.b button.b-call{
+        margin: 15% 3% 4% 4%;
+    }
+    div.b button.a-call{
+        margin: 15% 3% 4% 4%;
+    }
+    span.term{
         display: flex;
-        position: absolute;
-        right: 0;
-        width: 600px !important;
-        height: 750px !important;
+        margin: 2em 0 0em 0%;
+
     }
-    span.info3 {
-        font-size: 16.5pt;
-        display: block;
-        text-align: left;
-        display: block;
-        margin-left: 6%;
-        margin-right: 51.5% !important;
-    }
-    div.end2{
-        margin-left: 17% !important;
+    div.finish div.end2{
+        margin-left: 18%;
 
     }
     div.support{
@@ -103,9 +49,6 @@
     }
     div.about{
         width: 200px;
-    }
-    h2.blue{
-        width: 200px !important;
     }
     div.term{
         margin: 14% 0% 12% 19% !important;
